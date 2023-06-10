@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>netflix homepage</title>
+        <style>
+            /*global styles*/
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: black;
+            }
+
+            /* header styles*/
+            .header {
+                background-color: black;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /*main section styles*/
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+            /*card styles*/
+            .card {
+                width: 150px;
+                height: 250px;
+                background-color: #222;
+                border-radius: 10px;
+                margin: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+                transition: transform 0.8s ease;
+            }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+            .card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: opacity 0.3s ease;
+            }
+
+            .card:hover img {
+                opacity: 0.5;
+            }
+            .card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to box-shadow,rgba(255,0,0,0.8),rgba(0,0,255,0.8));
+                opacity: 0.6;
+                pointer-events: none;
+            }
+
+            /*footer styles*/
+            .footer {
+                background-color: #000;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <head>
+        <title>netflix homepage</title>
+        <style>
+            body {
+                background-color: #000;
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            #header {
+                padding: 30px;
+            }
+            #logo {
+                color: #e50914;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            #nav {
+                padding: 10px;
+                background-color: #000;
+            }
+            #nav ul {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+            }
+            #nav ul li{
+                display: inline;
+                margin-right: 10px;
+            }
+            #nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            #hero {
+                background-image: url("C:\Users\samri\OneDrive\Pictures\Saved Pictures\download (2).png");
+                background-size: cover;
+                background-position: center;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            #hero h1 {
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+            #hero p {
+                font-size: 18px;
+            }
+            #footer p {
+                font-size: 20px;
+                color: #888;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <div id="logo">netflix</div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tv shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">My list</a></li>
+                    <li><a href="#">Originals</a></li>
+                    <li><a href="#">recently added</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="hero">
+            <div>
+                <h1>welcome to netflix</h1>
+                <p>watch your favourite tv shows and movies anytime,anywhere.</p>
+            </div>
+        </section>
+    </body>
+
+    <div class="main">
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\DE_1899S1_Main_Vertical_27x40_RGB_PRE.jpg" alt="movie 1">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\download (1).jpg" alt="movie 2">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\download.jpg" alt="movie 3">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\heroes-leaving-netflix-1024x768.jpg" alt="movie 3">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\images (1).jpg" alt="movie 3">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\images (2).jpg" alt="movie 3">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\images (3).jpg" alt="movie 3">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\images.jpg" alt="movie 3">
+        </div>
+        <div class="card">
+            <img src="C:\Users\samri\OneDrive\Pictures\Saved Pictures\Mai_Netflix_web_series_poster_1648104261502.webp" alt="movie 3">
+    </div>
+</body>
+</html>
